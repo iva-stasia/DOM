@@ -210,7 +210,7 @@
 
     .wrapper {
       flex-direction: column;
-      padding: 0.5rem;
+      padding: 0;
     }
   
     .nav_bar {
