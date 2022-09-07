@@ -27,7 +27,7 @@
     border-color: transparent;
   }
 
-  /* Scrollbar */
+ /* Scrollbar */
 
 *::-webkit-scrollbar {
   width: 0.5rem;
@@ -174,8 +174,9 @@
     padding: 0 1.5rem 2rem;
   }
 
-  .descr {
+  .descr, .extra_info {
     padding: 0 1.5rem 1rem;
+    text-align: justify;
   }
 
   .char_img {
@@ -200,10 +201,8 @@
     color: var(--color4)
   }
 
-  .extra_info {
-    padding: 0 1.5rem 1rem;
-  }
 /* Media Query */
+
   @media (max-width: 1023px) {
     * {
       font-size: 14px;
